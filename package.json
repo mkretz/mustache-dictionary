@@ -1,0 +1,32 @@
+{
+  "name": "mustache-dictionary",
+  "version": "1.0.0",
+  "description": "Loads a directory tree of mustache templates into a dictionary object",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha --ui bdd spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkretz/mustache-dictionary.git"
+  },
+  "keywords": [
+    "mustache",
+    "template",
+    "load",
+    "dictionary"
+  ],
+  "author": "Mathis Kretz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkretz/mustache-dictionary/issues"
+  },
+  "homepage": "https://github.com/mkretz/mustache-dictionary#readme",
+  "dependencies": {
+    "directory-tree": "^1.2.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
