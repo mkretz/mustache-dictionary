@@ -12,7 +12,7 @@ templates
 └── uvw.js
 ```
 Do you want to load all your templates at once into a dictionary object like so?
-```
+```js
 {
     more: {
         def: '<content of def.mustache>'
@@ -26,7 +26,7 @@ Do you want to load all your templates at once into a dictionary object like so?
 }
 ```
 Just require `mustache-dictionary` and call it on your target directory.
-```
+```js
 var mustacheDictionary = require('mustache-dictionary');
 var dictionary = mustacheDictionary('target/path');
 ```
