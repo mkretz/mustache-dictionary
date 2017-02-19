@@ -45,5 +45,6 @@ If you need to extend the functionality of `mustache-dictionary` please feel fre
 
 `git clone https://github.com/mkretz/mustache-dictionary.git
 `
+
 ### Run the tests
 `npm test`
