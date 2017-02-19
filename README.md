@@ -18,7 +18,7 @@ mustache.render(templates.some.others.klm, view);
 Just require `mustache-dictionary` and call it on your target directory.
 ```js
 var mustacheDictionary = require('mustache-dictionary');
-var dictionary = mustacheDictionary('target/path');
+var templates = mustacheDictionary('templates');
 ```
 This will load your templates and return an object of the following form
 ```js
