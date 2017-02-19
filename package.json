@@ -1,6 +1,6 @@
 {
   "name": "mustache-dictionary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads a directory tree of mustache templates into a dictionary object",
   "main": "index.js",
   "scripts": {
